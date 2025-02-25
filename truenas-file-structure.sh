@@ -6,7 +6,7 @@ read -p "Enter the pool name: " POOLNAME
 # Define datasets and directories
 CONFIG_DATASETS=("prowlarr" "radarr" "sonarr" "jellyseerr" "recyclarr" "bazarr" "tdarr" "plex" "qbittorrent" "dozzle")
 TDARR_SUBDIRS=("server" "logs" "transcode_cache")
-MEDIA_SUBDIRECTORIES=("movies" "tv" "downloads")
+MEDIA_SUBDIRECTORIES=("movies" "tv" "downloads" "other")
 DOCKER_COMPOSE_PATH="/mnt/$POOLNAME/docker"
 
 # Function to create and set up a dataset

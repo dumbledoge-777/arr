@@ -116,7 +116,7 @@ services:
     environment:
       - PUID=568
       - PGID=568
-      - TZ=America/New_York
+      - TZ=Australia/Melbourne
     networks:
       - media_network
     volumes:
@@ -132,7 +132,7 @@ services:
     environment:
       - PUID=568
       - PGID=568
-      - TZ=America/New_York
+      - TZ=Australia/Melbourne
     networks:
       - media_network
     volumes:
@@ -146,7 +146,7 @@ services:
     ports:
       - 5055:5055
     environment:
-      - TZ=America/New_York
+      - TZ=Australia/Melbourne
     networks:
       - media_network
     volumes:
@@ -173,7 +173,7 @@ services:
     environment:
       - PUID=568
       - PGID=568
-      - TZ=America/New_York
+      - TZ=Australia/Melbourne
     networks:
       - media_network
     volumes:
@@ -188,7 +188,7 @@ services:
       - 8265:8265 # webUI port
       - 8266:8266 # server port
     environment:
-      - TZ=America/New_York
+      - TZ=Australia/Melbourne
       - PUID=568
       - PGID=568
       - UMASK_SET=002
@@ -230,7 +230,7 @@ services:
       - PUID=568
       - PGID=568
       - UMASK=002
-      - TZ=America/New_York
+      - TZ=Australia/Melbourne
       - WEBUI_PORTS=8080/tcp,8080/udp
       - VPN_ENABLED=true
       - VPN_CONF=wg0
